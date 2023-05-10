@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url("./fonts/Pacifico-Regular.ttf");
+}
+@font-face {
+    font-family: "KonkhmerSleokchher-Regular";
+    src: url("./fonts/ShadowsIntoLight-Regular.ttf");
+}
+/*Tags*/
+h1{
+    color: white;
+    margin: 10px;
+    text-align: center;
+    border: 1px gainsboro solid;
+}
+
+p{
+    font-family: 'KonkhmerSleokchher-Regular', cursive;
+   color: white;
+    } 
+font {
+    font-family: 'Pacifico-Regular', cursive;
+    color: white;
+}
+div{ 
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    border: 2px white solid;
+    padding: 50px;
+    width: 500px;
+    border-radius: 5px;
+}
+body {
+    background-image: url("./Walpper/Loli.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: transparent;
+    border: 1px whitesmoke solid;
+}
+/*Ids*/
+#Menu{
+    background-color: white;
+}
+#a{
+    color: white;
+}
+
+
+/*Classes*/
+.social-esquerda{
+    width: 50%;
+    color: aqua;
+    background-color: black;
+    border: 1px gainsboro solid;
+    border-radius: 5px;
+    margin-left: auto;
+    transition: 5s;
+}
+.social-direita{
+    width: 50%;
+    color: aqua;
+    border: 1px gainsboro solid;
+    margin-right: 50px;
+    border-radius: 5px;
+    
+    transition: 5s;
+}
+.social-link{
+    text-decoration: none;
+    color: gainsboro;
+}
